@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+
+.mainContainer{
+    width: 100%;
+    /* border: 2px  solid red; */
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.upperBar{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoConatainer{
+    width: 20%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo{
+    width:70%;
+}
+
+.searchbar{
+    width: 20%;
+}
+
+
+.notificationwithUser{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black; */
+    width: 23%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logedUser{
+    display: flex;
+    flex-direction: row;
+    width: 72%;
+    /* border:2px solid blue; */
+    margin-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notificationimg{
+    width: 10%;
+}
+
+.userlogoImage{
+    width: 17%;
+    height: 15%;
+}
+.userbasicDetails{
+    /* border: 2px solid yellow; */
+    font-size: 13px;
+}
+
+.leftNavwithContainer{
+    width: 100%;
+    /* border: 2px solid pink; */
+    height: 90%;
+    display:flex;
+    flex-direction: row;
+}
+
+.leftnavbar{
+    width: 18%;
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detailContainer{
+    width: 80%;
+    /* border: 2px solid red; */
+}
+
+
+
+
+
+
+
+.upperbuttonSet{
+    width: 80%;
+    /* border: 2px solid green; */
+    margin-top: 10px;
+}
+
+.leftbuttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 20px;
+    
+}
+
+.leftbuttons:hover{
+    background-color:#017EF5 ;
+    color: white;
+}
+
+.detailContainer{
+    background-color:#eae9e9 ;
+}
